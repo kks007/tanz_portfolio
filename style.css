@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Comic+Neue&display=swap');
 
 
 body {
     margin:0;
     height:100vh;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Bitter', serif;
+
 }
 
 /* social links */
@@ -172,6 +174,7 @@ body {
 
 
 .home-text {
+    align-items: center;
     flex: 40%; 
     text-align: center;
     font-size: 1.5rem;
@@ -238,7 +241,6 @@ body {
 .image-section a img {
   width: 100%;
   height: auto;
-  padding-bottom: 20px;
 }
 
 
