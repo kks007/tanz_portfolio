@@ -212,6 +212,52 @@ body {
 
 
 
+.video-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 20;
+}
+
+.video-grid-item {
+  flex: 0 0 33%; /* Take up 33% of the width each */
+  max-width: 30%; /* Ensure a maximum width of 33% each */
+  max-height: 60%;
+}
+
+.video-grid-item img {
+  width: 100%; /* Make all images the same width within the grid item */
+  height: auto; /* Maintain the aspect ratio of the images */
+  display: block; /* Remove extra spacing under the images */
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-section a img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+
+
+/*footer */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
 
 
 
@@ -232,6 +278,35 @@ body {
         max-width: 90vw; /* Set image width to 100% of viewport width */
         padding-left: 1.5rem;
     }
+
+
+    .image-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .image-section a img {
+      width: 100%;
+  }
+
+
+
+    .video-grid {
+      flex-direction: column;
+    }
+
+    .video-grid-item {
+      flex: 0 0 33%; /* Take up 33% of the width each */
+      max-width: 80%; /* Ensure a maximum width of 33% each */
+      max-height: 40%;
+      align-self: center;
+    }
+    .video-grid-item img {
+      width: 100%; /* Make all images the same width within the grid item */
+      height: auto; /* Maintain the aspect ratio of the images */
+      display: block; /* Remove extra spacing under the images */
+    }
+
 
     .home-main {
         flex-direction: column;
