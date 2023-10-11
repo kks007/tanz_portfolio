@@ -230,7 +230,7 @@ body {
 
     .image-grid img {
         max-width: 90vw; /* Set image width to 100% of viewport width */
-        padding: 0;
+        padding-left: 1.5rem;
     }
 
     .home-main {
