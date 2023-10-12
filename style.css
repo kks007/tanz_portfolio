@@ -274,6 +274,7 @@ body {
     .image-grid {
         grid-template-columns: 1fr; /* 1 column for smaller screens */
         padding: 0;
+        padding-bottom: 100px;
     }
 
     .image-grid img {
@@ -350,7 +351,7 @@ body {
     .icon-bar {
         position: fixed;
         top: 95%;
-        left: 20%;
+        left: 25%;
         flex-direction: row;
       }
 }
